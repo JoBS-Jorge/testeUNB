@@ -10,7 +10,7 @@ const TableComponent = ({country}) => {
 
     const loadInstitutionsList = async () => {
         try {
-            const response = await apiInstituition.get(`http://universities.hipolabs.com/search?country=${country}`);
+            const response = await apiInstituition.get(`https://cors-anywhere.herokuapp.com/universities.hipolabs.com/search?country=${country}`);
             setInstitutionsList(response.data);
         } catch (error) {
             console.error("Erro ao carregar lista:", error);
