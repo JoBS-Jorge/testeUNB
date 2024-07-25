@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { api } from '../../services/api'
+import { apiInstituition } from '../../services/api'
 import './TableComponent.css'
 
 const TableComponent = ({country}) => {
@@ -10,7 +10,7 @@ const TableComponent = ({country}) => {
 
     const loadInstitutionsList = async () => {
         try {
-            const response = await api.get(`http://universities.hipolabs.com/search?country=${country}`);
+            const response = await apiInstituition.get(`http://universities.hipolabs.com/search?country=${country}`);
             setInstitutionsList(response.data);
         } catch (error) {
             console.error("Erro ao carregar lista:", error);

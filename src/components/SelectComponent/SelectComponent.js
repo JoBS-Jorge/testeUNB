@@ -1,7 +1,7 @@
 import './SelectComponent.css'
 import React from 'react'
 import { useEffect , useState } from 'react'
-import { api } from '../../services/api'
+import { apiCountry } from '../../services/api'
 import { TableComponent } from '../TableComponent/TableComponent'
 
 const SelectComponent = () => {
@@ -9,7 +9,7 @@ const SelectComponent = () => {
     const [ currentCountry, setCurrentCountry ] = useState('Brazil')
 
     const loadCountryList = async () => {
-        api.get("https://restcountries.com/v3.1/all").then((response) => {setCountryList(response.data)})
+        apiCountry.get("https://restcountries.com/v3.1/all").then((response) => {setCountryList(response.data)})
     }
 
     useEffect(()=>{
