@@ -13,7 +13,7 @@ const TableComponent = ({country}) => {
             const response = await api.get(`http://universities.hipolabs.com/search?country=${country}`);
             setInstitutionsList(response.data);
         } catch (error) {
-            console.error("Error loading institutions list:", error);
+            console.error("Erro ao carregar lista:", error);
         }
     };
 
