@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/testeUNB/static/css/main.62a3e846.css",
-    "main.js": "/testeUNB/static/js/main.ba4a59a1.js",
+    "main.js": "/testeUNB/static/js/main.42c93cee.js",
     "static/js/453.432593ba.chunk.js": "/testeUNB/static/js/453.432593ba.chunk.js",
     "index.html": "/testeUNB/index.html",
     "main.62a3e846.css.map": "/testeUNB/static/css/main.62a3e846.css.map",
-    "main.ba4a59a1.js.map": "/testeUNB/static/js/main.ba4a59a1.js.map",
+    "main.42c93cee.js.map": "/testeUNB/static/js/main.42c93cee.js.map",
     "453.432593ba.chunk.js.map": "/testeUNB/static/js/453.432593ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.62a3e846.css",
-    "static/js/main.ba4a59a1.js"
+    "static/js/main.42c93cee.js"
   ]
 }
